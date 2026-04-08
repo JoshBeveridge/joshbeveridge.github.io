@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     autoprefixer-rails (9.7.1)
       execjs
     colorator (1.1.0)
@@ -11,10 +11,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     ffi (1.11.2)
-    ffi (1.11.2-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.7.0)
@@ -60,7 +58,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.1)
+    public_suffix (7.0.5)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -68,16 +66,13 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.2.1)
       ffi (~> 1.9)
-    sassc (2.2.1-x64-mingw32)
-      ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.6.0)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
-  x64-mingw32
+  x64-mingw-ucrt
 
 DEPENDENCIES
   jekyll
@@ -85,7 +80,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-sitemap
   minima (~> 2.0)
-  wdm (>= 0.1.0)
 
 RUBY VERSION
    ruby 2.6.6p146
